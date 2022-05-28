@@ -16,5 +16,4 @@ s.requires_arc = true
 s.source_files = "TestPrivatePod/Source/**/*"
 
 s.frameworks = 'UIKit'
-s.dependency "SDWebImage", "~> 4.4.2"
 end
