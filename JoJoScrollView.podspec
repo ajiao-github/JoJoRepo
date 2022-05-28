@@ -13,8 +13,9 @@ s.source           = { :git => "https://github.com/ajiao-github/SmoothScrollView
 s.platform     = :ios, '10.0'
 s.requires_arc = true
 
-s.source_files = 'SmoothScrollView/Lib/**/*'
-
+s.source_files = "SmoothScrollView/Lib/*"
+s.dependency "SDWebImage"
+s.dependency "SDWebImage/WebP"
 
 s.frameworks = 'UIKit'
 end
